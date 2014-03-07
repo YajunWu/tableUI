@@ -1,0 +1,11 @@
+
+.evenRow{
+	background-color:#f0f0f0;
+}
+.oddRow{
+	background-color:#ffffff;
+}
+.activeRow{
+	background-color:#4EFEB3;
+}
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html public "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="Keywords" content="表格外观插件" />
+	<meta name="Description" content="一个简单的表格外观插件，让表格的奇偶行颜色不同，然后鼠标移到某行上，某行可以高亮显示。
+
+" />
+	<title>tableUI</title>
+	<link rel="stylesheet" type="text/css" href="./css/tableui.css"/>
+	<style type="text/css">
+	body{
+		color:#000;
+		background:#FFF;
+		margin: 20px auto;
+		width: 500px;
+	}
+	div{
+		width: 100%;
+		background-color: #00A600;
+		padding: 30px;
+		text-align: center;
+	}
+	table{
+		width: 100%;
+	}
+	tr{
+		line-height: 30px;
+	}
+	</style>	
+</head>
+<body>
+	<div>
+		<h1>表格外观插件</h1>
+	    <table cellspacing='0'>
+	   	    
+	   	    <tr>
+	   	    	<td>课程</td>
+	   	    	<td>学分</td>
+	   	    	<td>成绩</td>
+	   	    </tr>
+	   	    <tr>
+	   	    	<td>a</td>
+	   	    	<td>1</td>
+	   	    	<td>88</td>
+	   	    </tr>
+	   	    <tr>
+	   	    	<td>b</td>
+	   	    	<td>2</td>
+	   	    	<td>90</td>
+	   	    </tr>
+	   	    <tr>
+	   	    	<td>c</td>
+	   	    	<td>2</td>
+	   	    	<td>98</td>
+	   	    </tr>
+	   	    <tr>
+	   	    	<td>d</td>
+	   	    	<td>1</td>
+	   	    	<td>87</td>
+	   	    </tr>
+	   	    <tr>
+	   	    	<td>e</td>
+	   	    	<td>2</td>
+	   	    	<td>92</td>
+	   	    </tr>
+	   	    <tr>
+	   	    	<td>f</td>
+	   	    	<td>2</td>
+	   	    	<td>97</td>
+	   	    </tr>
+	    </table>
+	</div>
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script type="text/javascript" src="./js/jquery.tableui.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $("table").tableUI();
+    });
+    </script>
+</body>
+</html>
